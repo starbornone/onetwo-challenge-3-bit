@@ -34,9 +34,11 @@ export default function App() {
     <div className="App">
       <h1>OneTwo: 3-bit</h1>
       <p>
-        This version converts the number to a 3-bit string, turns that into an
-        array, then iterates over it and counts how many 0s come before the
-        first 1. Therefore 1 (001) and 2 (010) are 2 and 1 respectively.
+        A challenge where an input of 1 must return 2 and an input of 2 must
+        return 1, solved by converting the number to a 3-bit string, turning
+        that into an array, then iterating over it and counting how many 0s come
+        before the first 1. Therefore 1 (001) and 2 (010) are 2 and 1
+        respectively.
       </p>
       <p style={{ color: "#999", fontSize: "12px" }}>
         1 and 2 buttons are for convenience. Feel free to use the input to test.
